@@ -186,11 +186,11 @@ if __name__ == "__main__":
 
     filepath = "data/data_1_processed.csv"
 
-    wandb.agent(sweep_id, function=lambda: train_NN(filepath=filepath, NN_type="NN_Shallowest"), count=10)
+    # wandb.agent(sweep_id, function=lambda: train_NN(filepath=filepath, NN_type="NN_Shallowest"), count=10)
     # wandb.agent(sweep_id, function=lambda: train_NN(filepath=filepath, NN_type="NN_Dropout"), count=10)
     # wandb.agent(sweep_id, function=lambda: train_NN(filepath=filepath, NN_type="NN_Shallow"), count=10)
     # wandb.agent(sweep_id, function=lambda: train_NN(filepath=filepath, NN_type="NN_Deep"), count=10)
-
+    wandb.agent(sweep_id, function=lambda: train_NN(filepath=filepath, NN_type="NN_BatchNorm"), count=10)
 
     # train_NN(filepath=filepath, NN_type="NN_Shallow")
     # train_NN(filepath=filepath, NN_type="NN_Dropout")

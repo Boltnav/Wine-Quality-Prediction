@@ -25,3 +25,10 @@ config: {}
 2024-11-29 20:10:23,887 INFO    Thread-17 :24540 [wandb_run.py:_redirect():2395] Redirects installed.
 2024-11-29 20:10:23,888 INFO    Thread-17 :24540 [wandb_init.py:init():911] run started, returning control to user process
 2024-11-29 20:10:23,901 INFO    Thread-17 :24540 [wandb_watch.py:_watch():71] Watching
+2024-11-29 20:11:10,861 INFO    Thread-17 :24540 [wandb_run.py:_finish():2155] finishing run arnav0708-indraprastha-institute-of-information-technology/Wine Quality Prediction/3lqjydj7
+2024-11-29 20:11:10,862 INFO    Thread-17 :24540 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-29 20:11:10,862 INFO    Thread-17 :24540 [wandb_run.py:_restore():2402] restore
+2024-11-29 20:11:10,862 INFO    Thread-17 :24540 [wandb_run.py:_restore():2408] restore done
+2024-11-29 20:11:13,804 INFO    Thread-17 :24540 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-29 20:11:13,805 INFO    Thread-17 :24540 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-29 20:11:13,812 INFO    Thread-17 :24540 [wandb_run.py:_footer_sync_info():3921] logging synced files
